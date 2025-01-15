@@ -1,0 +1,56 @@
+.p-sidebar-left .p-sidebar {
+    width: 15rem;
+    height: 100%;
+}
+
+.headercontent {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+
+}
+
+.bodycontent {
+    height: 65vh;
+    width: 100%;
+    overflow: auto;
+}
+
+.bodycontent .menu-options {
+    width: 100%;
+    height: 70px;
+    display: flex;   
+    align-items: center;
+    justify-content: center;
+    font-size: .9rem;
+    gap: 18px;
+    cursor: pointer;
+    transition: .3s;
+    text-decoration: none; 
+    color: #ffff;
+}
+
+.footercontent {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+}
+
+.footercontent .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+hr {
+    width: 90%;
+}

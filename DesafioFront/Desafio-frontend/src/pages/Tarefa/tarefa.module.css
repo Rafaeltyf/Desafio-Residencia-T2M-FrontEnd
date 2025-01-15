@@ -1,0 +1,18 @@
+.tarefa {
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+    padding: 20px;
+}
+
+.custom-table .p-datatable-tbody > tr > td {
+    padding: 0.5rem; 
+    line-height: 0.5rem; 
+}

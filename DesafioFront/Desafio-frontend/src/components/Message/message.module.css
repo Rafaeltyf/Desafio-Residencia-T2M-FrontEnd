@@ -1,0 +1,33 @@
+body {
+    position: relative;
+}
+
+.message {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0.625rem;
+    left: 0;
+    color: var(--white);
+    font-weight: bold;
+    z-index: 9999;
+}
+
+.message p {
+    width: 50%;
+    height: 3.5rem;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.success {
+    background: var(--blue-500);
+}
+
+.error {
+    background: var(--red-500);
+}
